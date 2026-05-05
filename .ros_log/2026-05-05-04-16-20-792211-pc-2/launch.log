@@ -1,0 +1,11 @@
+1777922180.7935538 [INFO] [launch]: All log files can be found below /home/pyo/02_Code/tb3_ws/.ros_log/2026-05-05-04-16-20-792211-pc-2
+1777922180.7937422 [INFO] [launch]: Default logging verbosity is set to INFO
+1777922182.5300374 [INFO] [gzserver-1]: process started with pid [3]
+1777922182.5302503 [INFO] [gzclient-2]: process started with pid [5]
+1777922182.5303285 [INFO] [robot_state_publisher-3]: process started with pid [7]
+1777922182.5303848 [INFO] [spawn_entity.py-4]: process started with pid [9]
+1777922182.8320358 [gzserver-1] Error opening log file: "/home/pyo/.gazebo/server-11345/gzserver.log"
+1777922182.8680630 [gzserver-1] getifaddres: Operation not permitted
+1777922182.9457495 [ERROR] [gzserver-1]: process has died [pid 3, exit code 255, cmd 'gzserver /home/pyo/02_Code/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/worlds/turtlebot3_world.world -slibgazebo_ros_init.so -slibgazebo_ros_factory.so -slibgazebo_ros_force_system.so'].
+1777922212.9955866 [ERROR] [gzclient-2]: process has died [pid 5, exit code -6, cmd 'gzclient --gui-client-plugin=libgazebo_ros_eol_gui.so'].
+1777922213.1577373 [ERROR] [spawn_entity.py-4]: process has died [pid 9, exit code 1, cmd '/opt/ros/humble/lib/gazebo_ros/spawn_entity.py -entity waffle -file /home/pyo/02_Code/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/models/turtlebot3_waffle/model.sdf -x -2.0 -y -0.5 -z 0.01 --ros-args'].

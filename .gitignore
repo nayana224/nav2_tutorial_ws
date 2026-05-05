@@ -1,0 +1,14 @@
+build/
+install/
+log/
+
+.ros/
+*.bag
+*.db3
+*.mcap
+
+__pycache__/
+*.pyc
+
+.vscode/
+.idea/
