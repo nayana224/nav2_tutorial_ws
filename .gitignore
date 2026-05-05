@@ -1,10 +1,10 @@
 build/
 install/
 log/
-
 .ros/
-*.bag
+.ros_log/
 *.db3
+*.bag
 *.mcap
 
 __pycache__/
